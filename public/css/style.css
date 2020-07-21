@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 48px;
+}
+
+.container {
+  min-height: 100%;
+  flex: 1 0 auto;
+}
+
+.navbar {
+  width: 100vw;
+  position: relative;
+  background-color: #21243d;
+  height: 13vh;
+  padding-top: 0.5rem;
+  box-shadow: 0 5px 15px #525252;
+}
+
+img {
+  margin-left: 1rem;
+  height: 75px;
+  width: 75px;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
+
+.navbar-list {
+	margin-right: 50px;
+	font-size: 1.2rem;
+}
+
+.navbar-list > a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+main {
+  color: #222831;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+main > h1 {
+  margin-bottom: 3rem;
+}
+
+main > h2 {
+  margin-top: -2rem;
+}
+
+main > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.song-link, .add-song, .back-to-add, .input-song, .back {
+  color: #21243d;
+  width: 12rem;
+  height: 3.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -70%);
+  outline: none;
+  box-shadow: 2px 5px 10px #222831;
+  margin-top: 1rem;
+}
+
+.add-song {
+  top: 30%;
+  height: 2.5rem;
+  width: 10rem;
+  padding: 0.5rem 0;
+}
+
+form {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#input-title {
+  width: 60%;
+  height: 2.5rem;
+  padding-left: 5px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 2px 5px 10px #222831;
+}
+
+.new-page-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-song {
+  border: none;
+  top: 60%;
+}
+
+.input-song:hover {
+  cursor: pointer;
+}
+
+.back {
+  top: 70%;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin-top: 8rem;
+}
+
+.song-title {
+  margin-left: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  color: #222831;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.special-footer {
+    flex-shrink: 0;
+}
