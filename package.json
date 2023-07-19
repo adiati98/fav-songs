@@ -9,7 +9,7 @@
   "author": "Ayu Adiati",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
